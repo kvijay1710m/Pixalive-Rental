@@ -8,7 +8,6 @@ const Footer = () => {
       <div className="container mt-10 mb-5 mx-auto px-6 md:px-12">
         {/* Grid Layout for Footer Content */}
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8 text-center md:text-left">
-          {/* Column 1 - Logo */}
           <div> 
             <Link to="/" onClick={() => window.scrollTo(0, 0)} >
               <h2 className="text-2xl font-bold">Pixalive Rental <br /> Services</h2>
@@ -20,7 +19,7 @@ const Footer = () => {
             <div className="space-y-3">
               <p className="mb-8 flex items-center justify-center md:justify-start gap-3">
                 <FaMapMarkerAlt className="text-white text-6xl" />
-                Third Floor, 35/2, Hosur Rd, Konappana Agrahara, Electronic City, Phase 2, Bengaluru, Karnataka 560100, India.
+                Third Floor, 35/2, Hosur Rd, Konappana Agrahara, Electronic City, Phase 2, Bengaluru,Karnataka 560100, India.
               </p>
               <p className="flex mb-8 items-center justify-center md:justify-start gap-3">
                 <FaEnvelope className="text-white text-xl" />
@@ -34,7 +33,6 @@ const Footer = () => {
           </div>
 
 
-          {/* Column 3 - Links */}
           <div>
             <h3 className="text-lg font-semibold mb-10">Quick Links</h3>
             <ul className="space-y-2">
@@ -50,7 +48,6 @@ const Footer = () => {
             </ul>
           </div>
 
-          {/* Column 4 - Social Media */}
           <div>
             <h3 className="text-lg font-semibold mb-10">Follow Us</h3>
             <div className="flex justify-center md:justify-start space-x-4">
