@@ -1,5 +1,13 @@
 import React, { useEffect, useState, useRef } from "react";
 import { motion, useInView } from "framer-motion";
+import wifi from '../../assets/specials/wifi.jpg'
+import battery from '../../assets/specials/battery.webp'
+import meetingroom from '../../assets/specials/meetingroom.webp'
+import access from '../../assets/specials/access.webp'
+import laptops from '../../assets/specials/laprent.webp'
+import lift from '../../assets/specials/lift.jpg'
+import parking from '../../assets/specials/parking.jpg'
+import camera from '../../assets/specials/camera.jpg'
 
 const stats = [
   { label: "Seating", target: 200, suffix: "+" },
@@ -9,14 +17,14 @@ const stats = [
 ];
 
 const cards = [
-  { name: "Slack", img: "https://tech2edge.co/assets/images/clients/dark/biltrax-xs.png" },
-  { name: "Python AI", img: "https://tech2edge.co/assets/images/clients/dark/arrowai-xs.png" },
-  { name: "goto Chef", img: "https://tech2edge.co/assets/images/clients/dark/gotochef-xs.png" },
-  { name: "Easy to Pitch", img: "https://tech2edge.co/assets/images/clients/dark/easytopitch-xs.png" },
-  { name: "wendor", img: "https://tech2edge.co/assets/images/clients/dark/wendor-xs.png" },
-  { name: "Peterson Technology Partners", img: "https://tech2edge.co/assets/images/clients/dark/peterson-xs.png" },
-  { name: "EduGate", img: "https://tech2edge.co/assets/images/clients/dark/edugate-xs.png" },
-  { name: "tug", img: "https://tech2edge.co/assets/images/clients/dark/tug-xs.png" },
+  { name: "High speed Wi-Fi", img: wifi },
+  { name: "Power backup", img: battery },
+  { name: "Meeting-Rooms", img: meetingroom },
+  { name: "Secured Access", img: access},
+  { name: "Laptop-Rentals", img: laptops },
+  { name: "Elevator for 3rd floor", img: lift },
+  { name: "Reserved bike and car underground parking", img: parking},
+  { name: "Security camera", img: camera },
 ];
 
 const Counter = ({ target, suffix, label }) => {
